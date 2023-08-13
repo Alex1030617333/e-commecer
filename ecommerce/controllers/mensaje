@@ -1,0 +1,9 @@
+const mensaje = document.querySelector("[data-mensaje]")
+
+mensaje.addEventListener("click",()=>{
+    if (!mensaje =="") {
+        alert(" envio exitoso")
+    }else{
+        alert("no hay envio")
+    }
+})

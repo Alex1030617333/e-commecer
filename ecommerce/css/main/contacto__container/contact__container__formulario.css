@@ -1,0 +1,70 @@
+.contact__container__formulario{
+    
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;    
+    
+}
+.contacto__container__nombre{
+    width: 97vw;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.contacto__container__email{
+
+    width: 97vw;
+    height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+.contacto__container__mensaje{
+
+    width: 97vw;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: none;
+}
+
+@media screen and (min-width:768px){
+    .contacto__container__nombre{
+        width: 30vw;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        border: none;
+    }
+    
+    .contacto__container__email{
+        width: 30vw;
+        height: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        border: none;
+
+       
+    }
+    
+    .contacto__container__mensaje{
+    
+        width: 30vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        border: none;
+    }
+    .contact__container__formulario{
+    
+        
+        display: flex;
+        flex-direction: column;    
+        
+    }
+    
+}

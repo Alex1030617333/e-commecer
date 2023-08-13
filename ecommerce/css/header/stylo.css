@@ -1,0 +1,503 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 2s;
+}
+body{
+    background: black;
+}
+.carro__compras{
+    font-size: 45px;
+   
+   }
+.titulo{
+    font-family:'arial', cursive;
+    font-size: 40px;
+    padding: 30px;
+    background-image: linear-gradient(to left,green, rgb(3, 29, 223),yellow,red);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+:is(.buscador-logo,.banner__container){
+    display: flex;
+    justify-content: space-around;
+}
+
+.fomulario__pedidos {
+    width: 20%;
+    height: 45vh;
+    box-shadow: 0px 2px 1px 1px blue,0px 2px 1px 1px rgb(32, 236, 5);
+    position: absolute;
+    right: 80px;
+    top:200px;
+    border-radius: 10px;
+}
+:is(.fomulario,.fomulario__pedidos,.contenido){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pedidos{
+    background: rgb(218, 214, 214);
+    margin: 4px;
+    
+}
+.fomulario__pedidos input{
+    width: 210px;
+}
+.fomulario__pedidos label{
+    color: white;
+}
+
+.fomulario__pedidos h1{
+    color: green;
+    padding: 6px;
+}
+.fomulario__pedidos select{
+    width: 80%;
+    }
+    .header__container__buscador{
+
+        width: 20rem;
+        height: 2rem;
+        text-align: center;
+        margin-top: 0.3rem;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+    .header__container{
+        display: flex;
+        justify-content: space-between;
+     color: white;
+        background: black;
+       
+    }
+.header__container__logo{
+    width: 7rem;
+}
+ li{
+    list-style: none;
+    padding: 40px;
+   
+ }
+    .menu-opciones a{
+       
+        list-style: none;
+        text-decoration: none;
+       
+    
+    } 
+    h1, h2, h3 {
+        text-align: center;
+      }
+      .Subcribite{
+        width: 150px;
+        height: 4vh;
+     color: red;
+     border-radius:10px ;
+     animation: bt 4s infinite ;
+     transition: 3s;
+    }
+    @keyframes bt{
+     
+        0%{ background: blue; width: 5%;}
+        2%{ background: blue; width: 20%;}
+        4%{ background: blue; width: 40%;}
+        6%{ background: blue; width: 60%;}
+        8%{ background: blue; width: 70%;}
+        10%{ background: blue; width: 80%;}
+        12%{ background: blue; width: 90%;}
+        14%{ background: blue; width: 100%;}
+    }
+   
+    span{
+        animation: mano 3s infinite;
+       
+    }
+    @keyframes mano{
+       10%{opacity: .1;}
+       20%{opacity: .2;}
+       30%{opacity: .3;}
+       40%{opacity: .1;}
+       50%{opacity: .5;}
+       60%{opacity: .6;}
+       70%{opacity: .7;}
+       80%{opacity: .8;}
+       100%{opacity: .1;}
+      
+    
+    }
+    descuentos__producto h1{
+        color: rgb(6, 6, 110);
+        font-size: 24px;
+        padding: 20px;
+      } 
+      .container__ecomer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    rases {
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        padding: 30px;
+    }
+    
+    .leer{
+       
+        background: transparent;
+        border-radius: blue 2px;
+        color: white;
+       width: 20%;
+       margin-top: 20px;
+       padding: 10px;
+       
+     
+    }
+    .leer:hover{
+        box-shadow: 1px 4px 10px rgb(179, 0, 255),1px 4px 9px rgb(179, 0, 255),1px 4px 10px rgb(179, 0, 255);
+        background: rgb(179, 0, 255);
+        color: rgb(70, 5, 98);
+        border: none;
+    }
+    .productos__espacioIndividual{
+        width: 18%;
+        color: white;
+        padding: 10px;
+        box-shadow:2px 2px 2px 2px rgb(4, 224, 253),2px 2px 2px 2px rgb(4, 224, 253),2px 2px 2px 2px rgb(4, 224, 253),2px 2px 2px 2px rgb(4, 224, 253);
+    }
+    .starwars__producto__img{
+        width: 220px;
+        height: 40vh;
+    }
+    .pedido,.pedidos__envio,.container__fondo{
+        display: none;
+    }
+   
+    /* .contenido button{
+        width: 16%;
+        height: 4vh;
+        border-radius: 20px;
+        margin: 10px;
+        
+        } */
+/*
+ .login__container{
+    box-shadow:1px 2px 2px 3px aqua;
+    padding: 30px;
+    margin-top: 50px;
+}  */
+/*
+
+
+.contenido p{
+    color: white;
+}
+
+
+
+
+:is(.header__container,.menu-opciones a){
+    margin: 10px;
+}
+
+
+
+
+.container__ecomer  article{
+    box-shadow: 2px 4px 6px 8px blue;
+  } 
+
+  .
+  .container__ecomer__titulo h2{
+    font-size: 15px;
+   
+    padding: 10px;  
+}
+
+
+
+
+
+ strong{
+   
+    font-size: 35px;
+    animation: letra 3s 1 ;   
+  
+
+}
+
+@keyframes letra{
+    0%{font-size: 10px;}
+    10%{font-size: 12px; opacity: .4;}
+    20%{font-size: 14px;}
+   0%{font-size: 16px;color: blue;}
+    40%{font-size: 18px; color: yellow;}
+    60%{font-size: 19px; color: green;}
+}
+
+a{
+    color: white;
+    font-size: 20px;
+}
+
+
+ .contenedor__fomulario h1{
+
+padding: 10px;
+ }
+ .contenedor__fomulario{
+    border: 2px solid blue;
+        width: 20%;
+        height: 40vh;
+        display: none; 
+    
+    }
+   
+    .contenedor__carro a{
+        font-size: 30px;
+        list-style: none;
+        text-decoration: none;
+        
+    }
+    .estrellas{
+        margin-left: 60px;
+    }
+    .container__ecomer{
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        flex-wrap: wrap; 
+        }
+      
+        .contenedor__carro{
+            display: flex;
+            justify-content:center;
+            align-items: center;
+          gap: 100px;
+        }
+        .navegador select {
+            background: black;
+            color: white;
+            font-size: 20px;
+        } 
+        .agregar,.compra{
+            margin: 10px;
+            width: 40%;
+            height: 5vh;
+            background: orange;
+            border-radius: 15px 2px ;
+            }
+        .agregar:active{
+            box-shadow: 3px  4px 3px rgb(4, 200, 240);
+        }
+        .compra:active{
+            box-shadow: 3px  4px 3px rgb(4, 200, 240);
+        }
+
+
+
+
+.bannerImg{
+    width: 50%;
+    height: 30vh;
+}
+
+
+
+.header__container__buscador__btnBuscador{
+
+    background: transparent;
+    border: none;
+}
+
+
+
+h5{
+    color: white;
+    margin-left:600px;
+    padding: 10px;
+    gap: 20px;
+}
+
+
+.contenedr__registro{
+    background: yellow;
+}
+
+
+
+
+
+
+
+
+ */
+ .descripcion{
+    display: none;
+
+ }
+ .verdescripcion{
+    background: none;
+    border: none;
+    color: rgb(11, 231, 247);
+  
+ }
+ .productos__espacio__descripcion{
+    display: none;
+ }
+ .btncard {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+ 
+ 
+}
+.btncard button{
+  width: 90px;
+  padding: 6px;
+
+ 
+}
+ .quinesomos p,.hsitoria p{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 100px;
+    width: 80%;
+    padding: 20px;
+    color:white;
+}
+.quinesomos h1,.hsitoria h1{
+    padding: 20px;
+    color: yellow;
+    font-size:30px;
+}
+.contexto{
+   text-align: center;
+    width: 90%;
+    padding: 20px;
+}
+ .contenido p{
+  color: white;
+  
+}
+.cerrar{
+    position: absolute;
+    top: 0;
+    right: 10px;
+}
+ .descuentos{
+    display: flex;
+    justify-content: space-evenly;
+    height: 40vh;
+    padding: 40px;
+}
+.descuentos p{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(58, 237, 4);
+    text-shadow: 2px 1px 2px rgb(225, 11, 11);
+}
+ .container_mesaje__envio{
+    background: rgb(237, 10, 10);
+top: 160px;
+left: 230px;
+position: absolute;
+    color: white;
+ width: 60%;
+
+}
+
+.autenticacion a{
+list-style: none;
+text-decoration: none;
+margin-left: 20px;
+  }
+  
+  .autenticacion a:hover{
+    color: blue;
+    transform: scale(2s);
+    font-size: 20px;
+    text-shadow: 2px 2px  6px rgb(1, 224, 16);
+  }
+ h3{
+    font-size: 70px;
+   
+    animation: descu 3s infinite ;
+}
+@keyframes descu{
+
+    10%{color: rgb(5, 13, 1); opacity: .4;}
+    20%{color: brown;}
+   0%{color: blue;}
+    40%{ color: green;}
+    60%{ color: rgb(223, 6, 6);}
+}
+
+ .mensaje__nombre{
+    font-size: 10px;
+    color: red;
+    text-align: center;
+ }
+ .header__container__buscador:hover::placeholder{
+    color: blue;
+        }
+      
+ .menu-opciones a:hover{
+    text-decoration: underline solid yellow;
+}
+.menu-opciones button{
+    width: 120px;
+    height: 4vh;
+    border-radius: 20px;
+    background: aqua;
+    border: none;
+    
+    }
+ .menu-opciones button:hover{
+    background: transparent;
+    color: white;
+    border: solid 2px blue;
+        }
+ .enviar,.borrar{
+    width: 100px;
+    height: 4vh;
+}
+ .bienvenida{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    background-image: linear-gradient(to left,rgb(8, 231, 8), rgb(3, 205, 223),yellow,red);
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+}
+
+ footer{
+   margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    background: black;
+    color: white;
+    height: 47vh;
+}
+
+.Redes__sociales{
+    display: flex;
+    margin: 40px;
+    font-size: 30px;
+   gap: 16px;
+}
+iframe{
+    width: 75%;
+    height: 26vh;
+ }
+ /* .container__fondo{
+    display: none;
+ } */

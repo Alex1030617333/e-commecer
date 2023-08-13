@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: linear-gradient(to left,rgb(34, 11, 240),rgb(10, 10, 10));
+}
+
+.titulo{
+   
+   
+    background-image: linear-gradient(to top,blue,black);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    width: 100%;
+}
+h1 ,p{
+    text-align: center;
+}
+
+img{
+ margin-left: 530px;
+}
+.ubicacion{
+    font-size: 20px;
+
+}
+.btnenvio{
+    display: flex;
+    justify-content: center;
+   
+}
+.btnenvio button{
+    
+    width: 10%;
+    padding: 7px;
+}
+span{
+    font-size: 40px;
+  margin-left: 500px;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}

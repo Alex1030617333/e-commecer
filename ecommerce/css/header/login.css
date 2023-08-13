@@ -1,0 +1,70 @@
+body{
+    background: rgb(8, 8, 8);
+}
+form{
+    box-shadow: 1px 1px 1px 1px yellow,1px 1px 1px  rgb(236, 20, 5);
+    padding: 30px;
+}
+.login__container__titulo{
+    font-size: 40px;
+    background-image: linear-gradient(to top,yellow ,blue,green,red);
+    -webkit-text-fill-colo: text;
+    -webkit-background-clip: text;
+    background-clip: text;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    text-shadow: 1px 1px 1px white;
+}
+.header__container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    background: rgb(2, 2, 66);
+}
+.login__container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px;
+}
+ label{
+    color: white;
+
+}
+.login__container__btnLogin{
+    margin-top: 20px;
+    width: 50%;
+    height: 4vh;
+    
+}
+.login__container__btnLogin:hover{
+  background: blue;  
+  border-radius: 10px; 
+}
+
+footer{
+    background: rgb(2, 2, 66);
+    margin-top: 130px;
+    height: 20vh;
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+}
+.header__container__btn-login{
+   background: transparent;
+    border: none;
+    border-radius: 20px;
+    animation: btncolor 10s infinite;
+    
+}
+@keyframes btncolor{
+    0%{ background: rgb(6, 194, 241); width: 5%;}
+    2%{ background: rgb(6, 194, 241); width: 20%;}
+    4%{ background: rgb(6, 194, 241); width: 40%;}
+    6%{ background: rgb(6, 194, 241); width: 60%;}
+    8%{ background: rgb(6, 194, 241); width: 70%;}
+    10%{ background: rgb(6, 194, 241); width: 80%;}
+    12%{ background: rgb(6, 194, 241); width: 90%;}
+    14%{ background: rgb(6, 194, 241); width: 100%;}
+}

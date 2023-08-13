@@ -1,0 +1,26 @@
+@media screen and (max-width: 767px){
+    .contacto__container__links-formulario{
+        display: flex;
+        flex-direction: column;
+      
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .contacto__container__links-formulario{
+        
+        display: flex;
+        width: 99vw;
+        margin-top: 2rem;
+        justify-content: space-evenly;
+      
+
+
+    }
+
+
+    
+}

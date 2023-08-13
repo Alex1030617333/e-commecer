@@ -1,0 +1,324 @@
+
+
+  @media screen and (max-width: 768px){
+    .titulo, .bienvenida{
+            font-size: 30px;
+        }
+        .fomulario__pedidos{
+            padding: 120px;
+            color: #777;
+            background: rgb(10, 2, 51);
+            position: fixed;
+            width: 60%;
+            height: 70%;
+            top: 160px;
+            left: 130px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            z-index: 9;
+            font: calc((100vh + 100vw)/ 100)
+        }
+
+        .fomulario__pedidos h1{
+          color: green; 
+            font-size: 30px;
+            padding: 20px;
+        }
+        .fomulario__pedidos input{
+           width: 200px;
+        }
+        .fomulario__pedidos select {
+            width: 199px;
+         }
+       .carro__compras{
+        font-size: 40px;
+        padding: 4px;
+       }
+       .header__container__buscador{
+        width: 240px;
+       }
+       .bienvenida{
+        font-size: 26px;
+       }
+       .frases{
+        font-size: 23px;
+       }
+       .leer{
+        width: 150px;
+       }
+       .starwars__producto__img{
+       width: 123px;
+       height: 20vh;
+       }
+     .descuentos p{
+        font-size: 20px;
+     }
+     .descuentos h3{
+        font-size: 40px;
+     }
+     .quinesomos p,.hsitoria p{
+        font-size: 20px;
+     }
+     .quinesomos h1,.hsitoria h1{
+        font-size: 30px;
+        padding: 4px;
+     }
+     footer{
+       margin-left: 30px;
+        width: 90%;
+     }
+     footer .fa-brands  {
+font-size: 20px;
+
+     }
+     .ubicacion{
+        display: none;
+     }
+     }
+
+ @media screen and (max-width: 425px){
+   li{
+      
+width: calc(100%/4);
+padding: 4px;
+font-size: 10px;
+display: flex;
+flex-wrap: wrap;
+   }
+ 
+    .titulo, .bienvenida{
+            font-size: 20px;
+        }
+     :is(.buscador-logo,.banner__container,.header__container, .menu-opciones){
+      display: flex;
+      flex-wrap: wrap;
+  }
+  .fomulario__pedidos{
+   top: 100px;
+   left: 40px;
+ 
+}
+.fomulario__pedidos h1{
+
+  font-size: 20px;
+  padding: 18px;
+}
+
+.fomulario__pedidos input{
+width: 170px;
+}
+
+.fomulario__pedidos select {
+width: 170px;
+}
+.enviar ,.borrar{
+text-align: center;
+width: 150px;
+
+}
+ 
+.header__container__buscador{
+width: 130px;
+}
+.carro__compras{
+font-size: 20px;
+}
+.frases{
+font-size: 13px;
+}
+footer{
+display: flex;
+flex-direction: column;
+margin-top: 200px;
+font-size: 12px;
+
+}
+.descuentos p{
+font-size: 16px;
+}
+.descuentos h3{
+font-size: 37px;
+}
+.quinesomos p,.hsitoria p{
+font-size: 12px;
+margin: 10px;
+padding: 10px;
+}
+.quinesomos h1,.hsitoria h1{
+font-size: 20px;
+padding: 4px;
+}
+
+@keyframes bt{
+
+0%{ background: blue; width: 5%;}
+2%{ background: blue; width: 10%;}
+4%{ background: blue; width: 20%;}
+6%{ background: blue; width: 30%;}
+8%{ background: blue; width: 40%;}
+10%{ background: blue; width: 50%;}
+12%{ background: blue; width: 60%;}
+
+
+}
+
+     }
+     @media screen and (max-width: 375px){
+        .titulo, .bienvenida{
+                font-size: 20px;
+            }
+            :is(.buscador-logo,.banner__container,.header__container, .menu-opciones){
+               display: flex;
+               flex-wrap: wrap;
+           }
+           .fomulario__pedidos{
+            top: 100px;
+            left: 40px;
+          
+        }
+        .fomulario__pedidos h1{
+        
+           font-size: 20px;
+           padding: 18px;
+       }
+        
+       .fomulario__pedidos input{
+         width: 170px;
+      }
+      
+      .fomulario__pedidos select {
+         width: 170px;
+      }
+   .enviar ,.borrar{
+      text-align: center;
+width: 150px;
+
+   }
+          
+      .header__container__buscador{
+         width: 130px;
+        }
+      .carro__compras{
+         font-size: 20px;
+        }
+        .frases{
+         font-size: 13px;
+        }
+      footer{
+       display: flex;
+       flex-direction: column;
+       margin-top: 200px;
+       font-size: 12px;
+
+        }
+      .descuentos p{
+         font-size: 16px;
+       }
+       .descuentos h3{
+         font-size: 37px;
+       }
+       .quinesomos p,.hsitoria p{
+         font-size: 12px;
+        margin: 10px;
+        padding: 10px;
+       }
+       .quinesomos h1,.hsitoria h1{
+         font-size: 20px;
+         padding: 4px;
+       }
+    
+     @keyframes bt{
+      
+         0%{ background: blue; width: 5%;}
+         2%{ background: blue; width: 10%;}
+         4%{ background: blue; width: 20%;}
+         6%{ background: blue; width: 30%;}
+         8%{ background: blue; width: 40%;}
+         10%{ background: blue; width: 50%;}
+         12%{ background: blue; width: 60%;}
+        
+     }
+         }
+     @media screen and (max-width: 320px){
+        .titulo, .bienvenida{
+                font-size: 16px;
+            }
+           
+         }
+     :is(.buscador-logo,.banner__container,.header__container, .menu-opciones){
+        display: flex;
+        flex-wrap: wrap;
+        :is(.buscador-logo,.banner__container,.header__container, .menu-opciones){
+         display: flex;
+         flex-wrap: wrap;
+     }
+     .fomulario__pedidos{
+      top: 100px;
+      left: 40px;
+    
+  }
+  .fomulario__pedidos h1{
+  
+     font-size: 20px;
+     padding: 18px;
+ }
+  
+ .fomulario__pedidos input{
+   width: 170px;
+}
+
+.fomulario__pedidos select {
+   width: 170px;
+}
+.enviar ,.borrar{
+text-align: center;
+width: 150px;
+
+}
+    
+.header__container__buscador{
+   width: 130px;
+  }
+.carro__compras{
+   font-size: 20px;
+  }
+  .frases{
+   font-size: 13px;
+  }
+footer{
+ display: flex;
+ flex-direction: column;
+ margin-top: 200px;
+ font-size: 12px;
+
+  }
+.descuentos p{
+   font-size: 16px;
+ }
+ .descuentos h3{
+   font-size: 37px;
+ }
+ .quinesomos p,.hsitoria p{
+   font-size: 12px;
+  margin: 10px;
+  padding: 10px;
+ }
+ .quinesomos h1,.hsitoria h1{
+   font-size: 20px;
+   padding: 4px;
+ }
+
+@keyframes bt{
+
+   0%{ background: blue; width: 5%;}
+   2%{ background: blue; width: 10%;}
+   4%{ background: blue; width: 20%;}
+   6%{ background: blue; width: 30%;}
+   8%{ background: blue; width: 40%;}
+   10%{ background: blue; width: 50%;}
+   12%{ background: blue; width: 60%;}
+  
+}
+   }
